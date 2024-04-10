@@ -28,7 +28,7 @@
 <meta property="og:description" content="介绍使用hexo+nexT主题搭建个人博客的一些配置">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-04-10T10:32:49.000Z">
-<meta property="article:modified_time" content="2024-04-10T13:43:01.403Z">
+<meta property="article:modified_time" content="2024-04-10T16:44:50.027Z">
 <meta property="article:author" content="May531">
 <meta property="article:tag" content="Hexo">
 <meta property="article:tag" content="blog搭建">
@@ -216,10 +216,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2024-04-10 18:32:49 / 修改时间：21:43:01" itemprop="dateCreated datePublished" datetime="2024-04-10T18:32:49+08:00">2024-04-10</time>
+              <time title="创建时间：2024-04-10 18:32:49" itemprop="dateCreated datePublished" datetime="2024-04-10T18:32:49+08:00">2024-04-10</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-04-11 00:44:50" itemprop="dateModified" datetime="2024-04-11T00:44:50+08:00">2024-04-11</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -236,14 +242,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>272</span>
+              <span>1.6k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
+              <span>3 分钟</span>
             </span>
             <div class="post-description">介绍使用hexo+nexT主题搭建个人博客的一些配置</div>
 
@@ -259,11 +265,16 @@
         <h2 id="hexo常用命令列表"><a href="#hexo常用命令列表" class="headerlink" title="hexo常用命令列表"></a>hexo常用命令列表</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">hexo new page &quot;&lt;menu_name&gt;&quot;</span><br><span class="line"></span><br><span class="line">hexo new &quot;&lt;post_name&gt;&quot;</span><br><span class="line"></span><br><span class="line">hexo clean</span><br><span class="line"></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
 <h2 id="更改站点配置项-博客根目录下-config-yml"><a href="#更改站点配置项-博客根目录下-config-yml" class="headerlink" title="更改站点配置项(博客根目录下&#x2F;_config.yml)"></a>更改站点配置项(博客根目录下&#x2F;_config.yml)</h2><h2 id="nexT主题配置项-themes目录下-config-yml"><a href="#nexT主题配置项-themes目录下-config-yml" class="headerlink" title="nexT主题配置项(themes目录下&#x2F;_config.yml)"></a>nexT主题配置项(themes目录下&#x2F;_config.yml)</h2><ul>
-<li>pjax:<a target="_blank" rel="noopener" href="https://github.com/theme-next/theme-next-pjax">https://github.com/theme-next/theme-next-pjax</a></li>
+<li>back2top: 移动显示阅读百分比</li>
+<li>github_banner: 右上角github图标</li>
+<li>creative_commons: 文章末尾版权声明</li>
 </ul>
 <h2 id="使用插件列表-插件名称-功能-命令-基于windows"><a href="#使用插件列表-插件名称-功能-命令-基于windows" class="headerlink" title="使用插件列表(插件名称 : 功能 : 命令-基于windows)"></a>使用插件列表(插件名称 : 功能 : 命令-基于windows)</h2><ul>
-<li>word_count :</li>
+<li>pjax: <a target="_blank" rel="noopener" href="https://github.com/theme-next/theme-next-pjax">https://github.com/theme-next/theme-next-pjax</a></li>
+<li>hexo-next-darkmode: 自动切换黑白模式<a target="_blank" rel="noopener" href="https://www.techgrow.cn/posts/abf4aee1.html">https://www.techgrow.cn/posts/abf4aee1.html</a></li>
+<li>word-count: 字数统计<a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-symbols-count-time">https://github.com/theme-next/hexo-symbols-count-time</a></li>
 </ul>
+<h2 id="增加项"><a href="#增加项" class="headerlink" title="增加项"></a>增加项</h2><h3 id="添加网站运行时间"><a href="#添加网站运行时间" class="headerlink" title="添加网站运行时间"></a>添加网站运行时间</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">\\在 themes\next\layout\_partials\footer.<span class="property">swig</span> 目录下</span><br><span class="line">&lt;!-- 网站运行时间的设置 --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;timeDate&quot;</span>&gt;</span>载入天数...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">&quot;times&quot;</span>&gt;</span>载入时分秒...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="keyword">var</span> now = <span class="keyword">new</span> <span class="title class_">Date</span>();</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="keyword">function</span> <span class="title function_">createtime</span>(<span class="params"></span>) &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> grt= <span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;03/01/2023 10:00:00&quot;</span>); <span class="comment">//此处修改你的建站时间或者网站上线时间</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        now.<span class="title function_">setTime</span>(now.<span class="title function_">getTime</span>()+<span class="number">250</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        days = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> / <span class="number">24</span>; dnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(days);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        hours = (now - grt ) / <span class="number">1000</span> / <span class="number">60</span> / <span class="number">60</span> - (<span class="number">24</span> * dnum); hnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(hours);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">if</span>(<span class="title class_">String</span>(hnum).<span class="property">length</span> ==<span class="number">1</span> )&#123;hnum = <span class="string">&quot;0&quot;</span> + hnum;&#125; minutes = (now - grt ) / <span class="number">1000</span> /<span class="number">60</span> - (<span class="number">24</span> * <span class="number">60</span> * dnum) - (<span class="number">60</span> * hnum);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        mnum = <span class="title class_">Math</span>.<span class="title function_">floor</span>(minutes); <span class="keyword">if</span>(<span class="title class_">String</span>(mnum).<span class="property">length</span> ==<span class="number">1</span> )&#123;mnum = <span class="string">&quot;0&quot;</span> + mnum;&#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        seconds = (now - grt ) / <span class="number">1000</span> - (<span class="number">24</span> * <span class="number">60</span> * <span class="number">60</span> * dnum) - (<span class="number">60</span> * <span class="number">60</span> * hnum) - (<span class="number">60</span> * mnum);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        snum = <span class="title class_">Math</span>.<span class="title function_">round</span>(seconds); <span class="keyword">if</span>(<span class="title class_">String</span>(snum).<span class="property">length</span> ==<span class="number">1</span> )&#123;snum = <span class="string">&quot;0&quot;</span> + snum;&#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;timeDate&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;本站已安全运行 &quot;</span>+dnum+<span class="string">&quot; 天 &quot;</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;times&quot;</span>).<span class="property">innerHTML</span> = hnum + <span class="string">&quot; 小时 &quot;</span> + mnum + <span class="string">&quot; 分 &quot;</span> + snum + <span class="string">&quot; 秒.&quot;</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"><span class="built_in">setInterval</span>(<span class="string">&quot;createtime()&quot;</span>,<span class="number">250</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -350,7 +361,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8"><span class="nav-number">1.</span> <span class="nav-text">hexo常用命令列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E6%94%B9%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE%E9%A1%B9-%E5%8D%9A%E5%AE%A2%E6%A0%B9%E7%9B%AE%E5%BD%95%E4%B8%8B-config-yml"><span class="nav-number">2.</span> <span class="nav-text">更改站点配置项(博客根目录下&#x2F;_config.yml)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nexT%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E9%A1%B9-themes%E7%9B%AE%E5%BD%95%E4%B8%8B-config-yml"><span class="nav-number">3.</span> <span class="nav-text">nexT主题配置项(themes目录下&#x2F;_config.yml)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8-%E6%8F%92%E4%BB%B6%E5%90%8D%E7%A7%B0-%E5%8A%9F%E8%83%BD-%E5%91%BD%E4%BB%A4-%E5%9F%BA%E4%BA%8Ewindows"><span class="nav-number">4.</span> <span class="nav-text">使用插件列表(插件名称 : 功能 : 命令-基于windows)</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%88%97%E8%A1%A8"><span class="nav-number">1.</span> <span class="nav-text">hexo常用命令列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E6%94%B9%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE%E9%A1%B9-%E5%8D%9A%E5%AE%A2%E6%A0%B9%E7%9B%AE%E5%BD%95%E4%B8%8B-config-yml"><span class="nav-number">2.</span> <span class="nav-text">更改站点配置项(博客根目录下&#x2F;_config.yml)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nexT%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E9%A1%B9-themes%E7%9B%AE%E5%BD%95%E4%B8%8B-config-yml"><span class="nav-number">3.</span> <span class="nav-text">nexT主题配置项(themes目录下&#x2F;_config.yml)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8-%E6%8F%92%E4%BB%B6%E5%90%8D%E7%A7%B0-%E5%8A%9F%E8%83%BD-%E5%91%BD%E4%BB%A4-%E5%9F%BA%E4%BA%8Ewindows"><span class="nav-number">4.</span> <span class="nav-text">使用插件列表(插件名称 : 功能 : 命令-基于windows)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A2%9E%E5%8A%A0%E9%A1%B9"><span class="nav-number">5.</span> <span class="nav-text">增加项</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%BB%E5%8A%A0%E7%BD%91%E7%AB%99%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4"><span class="nav-number">5.1.</span> <span class="nav-text">添加网站运行时间</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -420,12 +431,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">1k</span>
+    <span title="站点总字数">2k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1 分钟</span>
+    <span title="站点阅读时长">4 分钟</span>
 </div>
 
 <!-- 网站运行时间的设置 -->
