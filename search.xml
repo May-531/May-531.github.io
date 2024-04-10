@@ -17,6 +17,13 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Hello World</tag>
+      </tags>
   </entry>
   <entry>
     <title>rust learning note 01</title>
@@ -43,11 +50,13 @@
 </ul>
 ]]></content>
       <categories>
-        <category>blog</category>
+        <category>Hexo</category>
       </categories>
       <tags>
+        <tag>Hexo</tag>
         <tag>blog搭建</tag>
         <tag>环境搭建</tag>
+        <tag>Hexo-nexT主题</tag>
       </tags>
   </entry>
 </search>
